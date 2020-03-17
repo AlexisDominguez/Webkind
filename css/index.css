@@ -1,0 +1,170 @@
+body{
+   margin: 0;
+   background-color: #080E33;
+}
+
+header{
+   height: 70px;
+   width: 100%;
+   position: absolute;
+   z-index: 1;
+}
+
+header img{
+   height: 50px;
+   margin: 10px 30px;
+}
+
+.button{
+   display: inline;
+}
+
+.button i{
+   position: relative;
+   float: right;
+   color: #F2B138;
+   font-size: 3em;
+   margin: 10px 30px;
+}
+
+.first-look{
+   background: url("../src/img/background.jpg");
+   background-position: center;
+   height: 100vh;
+}
+
+.black-layer{
+   height: 100vh;
+   background-color: rgba(0, 0, 0, 0.6);
+}
+
+.first-message p{
+   margin: 0 auto;
+   width: 330px;
+   padding-top: 35vh;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.5em;
+   line-height: 2em;
+   text-align: center;
+   color: white;
+}
+
+.see-plans-button, .buy-button{
+   width: 300px;
+   padding: 10px;
+   color: black;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+   font-size: 1.5em;
+   text-align: center;
+   margin: auto;
+   margin-top: 40px;
+   background-color: #F2B138;
+}
+
+.arrow{
+   text-align: center;
+   color: #F2B138;
+   font-size: 4em;
+   margin-top: 25vh;
+}
+
+.whats-included{
+   background-color: #080E33;
+}
+
+.card-title, .card-subtitle{
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   color:white;
+}
+
+.card-title, .custom-title{
+   font-size: 2em;
+   margin-top: 0;
+   margin-bottom: 10px;
+   padding-top: 20px;
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.card-subtitle{
+   font-size: 1em;
+   margin: 0 0 10px 0;
+}
+
+.card{
+   width: 280px;
+   margin:0 auto;
+   color: white;
+   border: 2px solid white;
+   border-color: white;
+   border-radius: 30px;
+   padding-bottom: 40px;
+}
+
+.card-price{
+   margin-top: 12px;
+   font-family: 'Montserrat', sans-serif;
+   font-size:3.1em; 
+   text-align: center;
+}
+
+.card-currency{
+   font-size:16px;
+}
+
+.card-icons i{
+   display: block;
+}
+
+.card-table{
+   margin-top: 5px;
+}
+
+.card-icon{
+   font-size: 1.5em;
+   padding: 10px 15px;
+}
+
+.card-text{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 14px;
+}
+
+.buy-button{
+   width: 230px;
+   padding: 10px;
+   color: black;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+   font-size: 1em;
+   text-align: center;
+   margin: auto;
+   margin-top: 20px;
+}
+
+.custom{
+   height: 100vh;
+}
+
+.custom-title{
+   margin: auto;
+   padding-top: 33vh;
+   padding-bottom: 20px;
+   text-align: center;
+}
+
+.custom-text{
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   text-align: center;
+   line-height: 30px;
+}
+
+.portfolio-img{
+   display: block;
+   margin: 20px auto;
+   width: 320px;
+   border: 2px solid white;
+}
